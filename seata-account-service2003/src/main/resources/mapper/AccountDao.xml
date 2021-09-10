@@ -10,7 +10,9 @@
         <result column="used" property="used" jdbcType="DECIMAL"/>
         <result column="residue" property="residue" jdbcType="DECIMAL"/>
     </resultMap>
-
+<sql id="mysqlme">
+    insert id from student
+</sql>
     <update id="decrease">
         UPDATE t_account
         SET
